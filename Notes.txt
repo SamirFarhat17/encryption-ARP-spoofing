@@ -1,0 +1,20 @@
+M: 743bc7053fa9
+IP: 10.9.0.105
+MAC: 02:42:0a:09:00:69
+
+A: ee6e333104ab
+IP: 10.9.0.5
+MAC: 02:42:0a:09:00:05
+
+B: de0f0d3ad398
+IP: 10.9.0.6
+MAC: 02:42:0a:09:00:06
+
+Task 1.1: Screenshots
+Task 1.2: Screenshots
+- If the IP of B is not in A's cache the message is dropped
+- If it is in A's cache it updates with the spoofed IP
+
+Task 1.3: Screenshots
+- If IP not in arp cache rejects the attempted change
+- If IP is in arp cache with the correct MAC address, then its updated and compromised
